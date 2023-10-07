@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 During the development of my trivia app, I faced various challenges. Initially, I struggled with connecting my ViewController to my main.Storyboard, but with assistance during office hours, I resolved this issue. I also encountered difficulties connecting my storyboard elements, especially multiple buttons, to my view controller code, requiring me to establish IBOutlet connections.
 Another challenge arose when I created a separate file for my code instead of using my ViewController file. After hours of debugging, I realized this error and transferred my code, with the guidance of my Tech Fellow.
 Additionally, I had issues with button actions not triggering correctly. I learned to connect all my buttons to a single IBAction method, allowing for smoother navigation to the next question.
-Furthermore, a critical error causing a crash emerged during the transition to the next question. It resulted from an unexpected nil value linked to a deleted triviaQuestionLabel UILabel in my Storyboard. These challenges, though demanding, provided valuable learning experiences in app development.
+Furthermore, a critical error causing a crash emerged during the transition to the next question. It resulted from an unexpected nil value linked to a deleted triviaQuestionLabel UILabel in my Storyboard. These challenges, though demanding, thought me that I need to be more attentive to my code to avoid little mistakes and to have more practice with my labs.
 
 
 ## License
