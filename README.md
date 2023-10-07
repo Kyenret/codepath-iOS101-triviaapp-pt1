@@ -1,44 +1,53 @@
-# Project 3 - *Name of App Here*
+# Project 3 - *Trivia App*
 
-Submitted by: **Your Name Here**
+Submitted by: **Kyenret Yakubu Ayuba**
 
-**Name of your app** is an app that ... [TODO] 
+**Trivia App** is an app that presents users with at least three questions, each accompanied by a set of four (4) answer choices to select from. 
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] User can view the current question and 4 different answers
-- [ ] User can view the next question after tapping an answer
-- [ ] User can answer at least 3 different questions
+- [x] User can view the current question and 4 different answers
+- [x] User can view the next question after tapping an answer
+- [x] User can answer at least 3 different questions
 
 
 The following **optional** features are implemented:
 
 - [ ] User can use the vertical orientation of the app on any device
-- [ ] User can track the question they are on and how many questions are left
+- [x] User can track the question they are on and how many questions are left
 - [ ] User can see how many questions they got correct after answering all questions
 - [ ] User should be able to restart the game after they've finished answering all questions
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] User can see the category of each question displayed on the screen
 
 ## Video Walkthrough
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
+<div>
+    <a href="https://www.loom.com/share/48292748f92544a1bc01cc083fdf7a90">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/48292748f92544a1bc01cc083fdf7a90-with-play.gif">
+    </a>
+
 [Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+During the development of my trivia app, I faced various challenges. Initially, I struggled with connecting my ViewController to my main.Storyboard, but with assistance during office hours, I resolved this issue. I also encountered difficulties connecting my storyboard elements, especially multiple buttons, to my view controller code, requiring me to establish IBOutlet connections.
+Another challenge arose when I mistakenly created a separate file for my code instead of using my ViewController file. After hours of debugging, I realized this error and transferred my code, with the guidance of my Tech Fellow.
+Additionally, I had issues with button actions not triggering correctly. I learned to connect all my buttons to a single IBAction method, allowing for smoother navigation to the next question.
+Furthermore, a critical error causing a crash emerged during the transition to the next question. It resulted from an unexpected nil value linked to a deleted triviaQuestionLabel UILabel in my Storyboard. These challenges, though demanding, provided valuable learning experiences in app development.
+
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Kyenret Yakubu Ayuba]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
